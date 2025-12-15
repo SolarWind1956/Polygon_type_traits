@@ -40,16 +40,3 @@ Polygon_type_traits/
 │   └── test_type_names.cpp
 │
 └── README.md
-
-
-А теперь — профессиональная структура:
-cmake/
-    ProjectOptions.cmake      # стандарт языка, предупреждения, sanitizers
-    ProjectConfig.cmake       # проектные дефайны
-    FetchDependencies.cmake   # зависимости (если появятся)
-    Utils.cmake               # функции
-src/
-    CMakeLists.txt
-    Sources.cmake
-include/
-    (нет CMake!)

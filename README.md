@@ -3,19 +3,19 @@
 📂 Структура проекта
 Polygon_type_traits/
 │
-├── build.bat					# Пакетный файл запуска автомата сборки CMake в настраиваемом режиме
+├── build.bat			
 ├── CMakeLists.txt
-├── cmake/                     	# настройки и конфигурация сборки
-│   ├── options.cmake       	# 
-│   ├── dependencies.cmake    	# 
-│   └── functions.cmake    		# 
+├── cmake/        
+│   ├── options.cmake
+│   ├── dependencies.cmake    	
+│   └── functions.cmake    		
 │
 ├── images/
-│   └── Logo_SolarWind.png     	# Логотип проекта
+│   └── Logo_SolarWind.png    
 │
 ├── include/
-│   ├── color_output.hpp       	# ANSI-цвета для красивого терминального вывода
-│   ├── umbrella_header.hpp    	# единый входной заголовок для всех тестеров
+│   ├── color_output.hpp      
+│   ├── umbrella_header.hpp   
 │   └── testers/
 │       ├── triviality_tester.hpp
 │       ├── type_properties_tester.hpp
@@ -29,14 +29,14 @@ Polygon_type_traits/
 ├── src/
 │	├── CMakeLists.txt
 │	├── cmake/
-│	│   └── sources.cmake      	# перечень всех исходных файлов
+│	│   └── sources.cmake      	
 │	│
-│   ├── main.cpp               	# единый тест-раннер
-│   ├── test_triviality.cpp
-│   ├── test_exception_specification.cpp
-│   ├── test_value_category.cpp
+│ ├── main.cpp               	
+│ ├── test_triviality.cpp
+│ ├── test_exception_specification.cpp
+│ ├── test_value_category.cpp
 │	├── test_layout_and_special_members.cpp
-│   ├── test_type_properties.cpp
-│   └── test_type_names.cpp
+│ ├── test_type_properties.cpp
+│ └── test_type_names.cpp
 │
 └── README.md

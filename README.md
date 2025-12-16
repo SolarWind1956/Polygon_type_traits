@@ -3,19 +3,19 @@
 📂 Структура проекта
 Polygon_type_traits/
 │
-├── build.bat			
+├── build.bat
 ├── CMakeLists.txt
-├── cmake/        
+├── cmake/
 │   ├── options.cmake
-│   ├── dependencies.cmake    	
-│   └── functions.cmake    		
+│   ├── dependencies.cmake
+│   └── functions.cmake 		
 │
 ├── images/
-│   └── Logo_SolarWind.png    
+│   └── Logo_SolarWind.png
 │
 ├── include/
-│   ├── color_output.hpp      
-│   ├── umbrella_header.hpp   
+│   ├── color_output.hpp
+│   ├── umbrella_header.hpp
 │   └── testers/
 │       ├── triviality_tester.hpp
 │       ├── type_properties_tester.hpp
@@ -29,9 +29,9 @@ Polygon_type_traits/
 ├── src/
 │	├── CMakeLists.txt
 │	├── cmake/
-│	│   └── sources.cmake      	
+│	│   └── sources.cmake
 │	│
-│ ├── main.cpp               	
+│ ├── main.cpp
 │ ├── test_triviality.cpp
 │ ├── test_exception_specification.cpp
 │ ├── test_value_category.cpp
